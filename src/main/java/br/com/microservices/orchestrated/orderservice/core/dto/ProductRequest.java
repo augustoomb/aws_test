@@ -1,0 +1,17 @@
+package br.com.microservices.orchestrated.orderservice.core.dto;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductRequest {
+
+    private String name;
+    private double value;
+}

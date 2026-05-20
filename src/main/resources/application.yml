@@ -1,0 +1,16 @@
+#server:
+#  port: 3000
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://database-1.cj8ug6kkyuux.us-east-2.rds.amazonaws.com:${DB_PORT:5432}/${DB_NAME:postgres}  # DB_HOST signfica que se tem variável de ambiente, o valor será carregado aqui. Se não tem, o valor padrão será "localhost"
+    username: ${DB_USER:postgres}
+    password: ${DB_PASSWORD:w&%9#Pcd37}
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop # PARO A APLICAÇÃO, O BANCO É DESTRUÍDO. SUBO A APLICAÇÃO, O BANCO É CRIADO DO ZERO
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
