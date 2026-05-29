@@ -19,6 +19,6 @@ public class ProductController {
 
     @GetMapping
     public String test() {
-        return "Teste OK!";
+        return "Teste OK! V2";
     }
 }
