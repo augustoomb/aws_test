@@ -1,4 +1,4 @@
-name: CI com GitHub Actions
+name: CI, CD, AWS com GitHub Actions
 
 on:
   push:
