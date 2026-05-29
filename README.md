@@ -1,0 +1,1 @@
+[![CI com GitHub Actions](https://github.com/augustoomb/aws_test/actions/workflows/continuos-deployment.yml/badge.svg)](https://github.com/augustoomb/aws_test/actions/workflows/continuos-deployment.yml)
